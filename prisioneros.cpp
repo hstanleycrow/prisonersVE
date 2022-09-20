@@ -6,58 +6,10 @@
 #include <conio.h>
 #include <locale.h>
 
-#define PRISONERS_TOTAL 100
-#define BOXES_TO_OPEN 50
+#define PRISONERS_TOTAL 1000
+#define BOXES_TO_OPEN 500
 
 using namespace std;
-
-/*int binarySearch(int *numbers, int dato, int total)
-{
-    int inf, sup, mitad;
-    bool sinEncontrar = true;
-
-    inf = 0;
-    sup = total;
-    while ((inf < sup) && sinEncontrar)
-    {
-        mitad = (inf + sup) / 2;
-        if (numbers[mitad] == dato)
-        {
-            sinEncontrar = true;
-        }
-        else
-        {
-            if (numbers[mitad] > dato)
-            {
-                sup = mitad;
-                mitad = (inf + sup) / 2;
-            }
-            if (numbers[mitad < dato])
-            {
-                inf = mitad;
-                mitad = (inf + sup) / 2;
-            }
-        }
-    }
-    return sinEncontrar;
-}
-*/
-/*void bubbleSort(int *numbers, int total)
-{
-    int temp;
-    for (int i = 0; i < total; i++)
-    {
-        for (int j = 0; j < total; j++)
-        {
-            temp = numbers[i];
-            if (numbers[i] > numbers[j])
-            {
-                numbers[i] = numbers[j];
-                numbers[j] = temp;
-            }
-        }
-    }
-}*/
 
 int genRand()
 {
