@@ -6,8 +6,8 @@
 #include <conio.h>
 #include <locale.h>
 
-#define PRISONERS_TOTAL 1000
-#define BOXES_TO_OPEN 500
+#define PRISONERS_TOTAL 100
+#define BOXES_TO_OPEN 50
 
 using namespace std;
 
