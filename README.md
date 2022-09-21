@@ -1,4 +1,4 @@
-# prisionersVS
+# prisionersVe
 Program to solve the prisioners challenge on the video from Dr. Derek and his channel Veritasium.
 Video Link: https://www.youtube.com/watch?v=ksasmB0YPzw
 
